@@ -33,7 +33,7 @@ class Database{
         }
     }
     
-    //executes the built query, this method is called by the actual crud operations
+    //executes the built query, this method is called by the objects crud operations
     public function execute($query, $params = []){
         try {
             $stmt = $this->connection->prepare($query);
