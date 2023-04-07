@@ -1,0 +1,9 @@
+{
+    "name": "bookstore/crud",
+    "autoload": {
+        "psr-4": {
+            "App\\" : "App/",
+            "Module\\" : "Module/"
+        }
+    }
+}
